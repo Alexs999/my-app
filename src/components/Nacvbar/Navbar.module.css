@@ -1,0 +1,18 @@
+
+.nav {
+  padding: 20px;
+  grid-area: n;
+  background-color: burlywood;
+
+}
+.item a{
+  color:white;
+  text-decoration: none;
+}
+.item a.activeLink{
+  color:gold;
+}
+.friends{
+  padding-top: 100px;
+  font-size: 35px;
+}
