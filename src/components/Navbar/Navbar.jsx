@@ -2,9 +2,10 @@ import React from 'react';
 import s from './Navbar.module.css';
 import {NavLink} from "react-router-dom";
 import DialogItem from "../Dialogs/Dialogs";
-import Sitebar from '../Sitebar/Sitebar';
+import Sitebar from '../Sidebar/Sidebar';
 
 const Navbar = (props)=> {
+
 
 
     return ( <nav className={s.nav}>
@@ -25,8 +26,10 @@ const Navbar = (props)=> {
     </div>
         <div className={s.friends}>
             Friends
-        </div>
 
+        </div>
+        <div className={s.circle}> </div>
+    <div> Alex  Vanya katya </div>
 
   </nav>)
 }
